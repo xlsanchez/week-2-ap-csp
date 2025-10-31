@@ -20,22 +20,32 @@ print(500 + 55)
 ##############################################################################################################
 # Find 3 objects around the room and create variables from it,
 # Insert those variables into an f-string sentence(look at slide 22)in repl.it
-
+w = "window"
+m = "mouse"
+c = "chair"
+print(f"Leo loves the {c} , uses the {m} and sees the {w}")
 
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
+print("Xavier")
 # Print today's date.
+print(f"October 30th, 2025")
 # Print the name of your favorite movie.
+print("Scream")
 
 # Print your name and age on separate lines using a single print() function.
+print("Xavier and I am 16 years old")
+
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
+
+print(f"In 10 years, [Your Name] will be [Your Age + 10] years old.")
 
 ##############################################################################################################
 
 ###########################String Practice##################################
 #syntax is the way we write code
 # print("Hello World")
-# name = "John"
+# name = "John"     
 #in other languages, this is different
 # in javascript for example, you define
 #variables with let or const or var
