@@ -17,3 +17,15 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+# Beer Name Generator 
+
+print("Welcome to the Beer Name Generator!\n")
+
+word1 = input("What's your favorite animal? ")
+word2 = input("What's your favorite place? ")
+
+beer_name = word1 + " " + word2
+
+print("\nYour new beer brand could be called:")
+print(f"\"{beer_name}\" 🍻")
